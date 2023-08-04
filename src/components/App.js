@@ -1,5 +1,6 @@
 import logo from "../logo.svg";
 import "./App.css";
+import AppContent from "./AppContent";
 
 import Header from "./Header";
 
@@ -10,6 +11,7 @@ function App() {
       <div className="container-fluid">
         <div className="row">
           <div className="col"></div>
+          <AppContent />
         </div>
       </div>
     </div>
